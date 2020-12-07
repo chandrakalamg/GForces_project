@@ -12,14 +12,16 @@ Steps to execute the automation suite:
 3. Execute the "testng.xml" as TestNG suite, All the three test cases will run in defined sequence
 4. Post execution, Reports will be saved in Reports folder
 
+Please refer the attached Demo video of execution
+
 Technical information, used applications:
-Eclipse 
-Version: 2019-12 (4.14.0)
-Build id: 20191212-1212
-selenium : 3.13.0
-testng : 7.0
-extentreport : 4.1.5
-Java: 1.8
+1. Eclipse 
+2. Version: 2019-12 (4.14.0)
+3. Build id: 20191212-1212
+4. selenium : 3.13.0
+5. testng : 7.0
+6. extentreport : 4.1.5
+7. Java: 1.8
 
 
 Overview of Technical Task 1 & 2:
