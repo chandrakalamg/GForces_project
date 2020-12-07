@@ -44,7 +44,7 @@ public class TestDataProvider {
 	}else if(m.getName().equals("searchandopen")) {
 		data= new Object[1][4];
 		// row 1
-		data[0][0] = "name1";
+		data[0][0] = "name2";
 		data[0][1] = "2020-04-10";
 		data[0][2] = "2020-12-10";
 		data[0][3] = "IBM";		
