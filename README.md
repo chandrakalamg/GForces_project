@@ -9,7 +9,18 @@ There are three main test scenarios for testing the Computer database applicatio
 Steps to execute the automation suite:
 1. Clone the repository to your local workspace or download the files to your machine
 2. Launch the project in eclipse "Automation_ComputerDB_7thDec"
-3. Execute the "testng.xml" as TestNG suite, Reports will be saved in Reports folder
+3. Execute the "testng.xml" as TestNG suite, All the three test cases will run in defined sequence
+4. Post execution, Reports will be saved in Reports folder
+
+Technical information, used applications:
+Eclipse 
+Version: 2019-12 (4.14.0)
+Build id: 20191212-1212
+selenium : 3.13.0
+testng : 7.0
+extentreport : 4.1.5
+Java: 1.8
+
 
 Overview of Technical Task 1 & 2:
 An Excel document with all the test cases, defects, recommendations & Technical Task 2 (SQL & CLI commands) outputs is attached in the main directory of this repo.
