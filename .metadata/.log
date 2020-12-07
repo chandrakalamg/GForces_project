@@ -1,0 +1,242 @@
+!SESSION 2020-12-07 12:14:29.079 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_241
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-07 12:15:42.215
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Murali'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:16:56.091
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:16:56.099
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:17:53.903
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:17:53.907
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:18:05.736
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:18:05.739
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:18:21.790
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:18:21.794
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:18:50.934
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:18:50.937
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 0 2020-12-07 12:19:09.549
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at java.io.File.<init>(Unknown Source)
+	at org.testng.eclipse.ui.preferences.ProjectPropertyPage$2.widgetSelected(ProjectPropertyPage.java:117)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.ConfigureBuildPathAction.run(ConfigureBuildPathAction.java:88)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:19:28.991
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:19:28.993
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:21:28.310
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:21:28.313
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:21:40.219
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:21:40.224
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:21:44.407
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:21:44.409
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:22:20.760
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:22:20.762
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2020-12-07 12:22:45.909
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Murali\Downloads\SoftwaresExe\eclipse-jee-2019-12-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\965\0\.cp\lib\testng-remote.jar E:\GForcesProject\Automation_ComputerDB_12thDec\target\test-classes E:\GForcesProject\Automation_ComputerDB_12thDec\target\classes C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-java\3.13.0\selenium-java-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-api\3.13.0\selenium-api-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.13.0\selenium-chrome-driver-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.13.0\selenium-edge-driver-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.13.0\selenium-firefox-driver-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.13.0\selenium-ie-driver-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.13.0\selenium-opera-driver-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.13.0\selenium-remote-driver-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.13.0\selenium-safari-driver-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-support\3.13.0\selenium-support-3.13.0.jar C:\Users\Murali\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar C:\Users\Murali\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\Murali\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\Murali\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Murali\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar C:\Users\Murali\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\Murali\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\Murali\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\Murali\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\Murali\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\Murali\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\Murali\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar C:\Users\Murali\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar C:\Users\Murali\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar C:\Users\Murali\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar C:\Users\Murali\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar C:\Users\Murali\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar C:\Users\Murali\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\Murali\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar C:\Users\Murali\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar C:\Users\Murali\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar C:\Users\Murali\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar C:\Users\Murali\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar C:\Users\Murali\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54368 -protocol json -d E:\GForcesProject\Automation_ComputerDB_12thDec\test-output E:\GForcesProject\Automation_ComputerDB_12thDec\testng.xml
+java -ea -classpath C:\Users\Murali\Downloads\SoftwaresExe\eclipse-jee-2019-12-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\965\0\.cp\lib\testng-remote.jar:E:\GForcesProject\Automation_ComputerDB_12thDec\target\test-classes:E:\GForcesProject\Automation_ComputerDB_12thDec\target\classes:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-java\3.13.0\selenium-java-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-api\3.13.0\selenium-api-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.13.0\selenium-chrome-driver-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.13.0\selenium-edge-driver-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.13.0\selenium-firefox-driver-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.13.0\selenium-ie-driver-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.13.0\selenium-opera-driver-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.13.0\selenium-remote-driver-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.13.0\selenium-safari-driver-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-support\3.13.0\selenium-support-3.13.0.jar:C:\Users\Murali\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar:C:\Users\Murali\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\Murali\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\Murali\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Murali\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar:C:\Users\Murali\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\Murali\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\Murali\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\Murali\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\Murali\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\Murali\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\Murali\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar:C:\Users\Murali\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar:C:\Users\Murali\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar:C:\Users\Murali\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar:C:\Users\Murali\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar:C:\Users\Murali\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar:C:\Users\Murali\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\Murali\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar:C:\Users\Murali\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar:C:\Users\Murali\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar:C:\Users\Murali\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar:C:\Users\Murali\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar:C:\Users\Murali\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar org.testng.remote.RemoteTestNG -serport 54368 -protocol json -d E:\GForcesProject\Automation_ComputerDB_12thDec\test-output E:\GForcesProject\Automation_ComputerDB_12thDec\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-12-07 12:22:46.200
+!MESSAGE Monitoring results at testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:24:42.684
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:24:42.687
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2020-12-07 12:29:22.305 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_241
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-07 12:29:49.416
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Murali'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:30:28.738
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:30:28.746
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:30:51.177
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:30:51.185
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:31:20.469
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:31:20.472
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:31:21.903
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:31:21.906
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:31:42.915
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:31:42.918
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:32:08.717
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:32:08.722
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:32:24.173
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:32:24.175
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:32:51.585
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:32:51.589
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:32:55.399
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:32:55.400
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:33:36.543
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:33:36.544
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:34:04.797
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:34:04.799
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:34:21.899
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:34:21.902
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2020-12-07 12:34:35.117
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Murali\Downloads\SoftwaresExe\eclipse-jee-2019-12-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\965\0\.cp\lib\testng-remote.jar E:\GForceProject_7thDec\Automation_ComputerDB_7thDec\target\test-classes E:\GForceProject_7thDec\Automation_ComputerDB_7thDec\target\classes C:\Users\Murali\Downloads\SoftwaresExe\eclipse-jee-2019-12-R-win32-x86_64\eclipse\plugins\org.testng_7.0.0.r201908191551.jar C:\Users\Murali\Downloads\SoftwaresExe\eclipse-jee-2019-12-R-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar C:\Users\Murali\Downloads\SoftwaresExe\eclipse-jee-2019-12-R-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Murali\Downloads\SoftwaresExe\eclipse-jee-2019-12-R-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-java\3.13.0\selenium-java-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-api\3.13.0\selenium-api-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.13.0\selenium-chrome-driver-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.13.0\selenium-edge-driver-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.13.0\selenium-firefox-driver-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.13.0\selenium-ie-driver-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.13.0\selenium-opera-driver-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.13.0\selenium-remote-driver-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.13.0\selenium-safari-driver-3.13.0.jar C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-support\3.13.0\selenium-support-3.13.0.jar C:\Users\Murali\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar C:\Users\Murali\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\Murali\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\Murali\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Murali\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar C:\Users\Murali\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\Murali\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\Murali\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\Murali\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\Murali\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\Murali\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\Murali\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar C:\Users\Murali\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar C:\Users\Murali\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar C:\Users\Murali\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar C:\Users\Murali\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar C:\Users\Murali\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar C:\Users\Murali\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\Murali\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar C:\Users\Murali\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar C:\Users\Murali\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar C:\Users\Murali\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar C:\Users\Murali\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar C:\Users\Murali\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54860 -protocol json -d E:\GForceProject_7thDec\Automation_ComputerDB_7thDec\test-output E:\GForceProject_7thDec\Automation_ComputerDB_7thDec\testng.xml
+java -ea -classpath C:\Users\Murali\Downloads\SoftwaresExe\eclipse-jee-2019-12-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\965\0\.cp\lib\testng-remote.jar:E:\GForceProject_7thDec\Automation_ComputerDB_7thDec\target\test-classes:E:\GForceProject_7thDec\Automation_ComputerDB_7thDec\target\classes:C:\Users\Murali\Downloads\SoftwaresExe\eclipse-jee-2019-12-R-win32-x86_64\eclipse\plugins\org.testng_7.0.0.r201908191551.jar:C:\Users\Murali\Downloads\SoftwaresExe\eclipse-jee-2019-12-R-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\Murali\Downloads\SoftwaresExe\eclipse-jee-2019-12-R-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Murali\Downloads\SoftwaresExe\eclipse-jee-2019-12-R-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-java\3.13.0\selenium-java-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-api\3.13.0\selenium-api-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.13.0\selenium-chrome-driver-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.13.0\selenium-edge-driver-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.13.0\selenium-firefox-driver-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.13.0\selenium-ie-driver-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.13.0\selenium-opera-driver-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.13.0\selenium-remote-driver-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.13.0\selenium-safari-driver-3.13.0.jar:C:\Users\Murali\.m2\repository\org\seleniumhq\selenium\selenium-support\3.13.0\selenium-support-3.13.0.jar:C:\Users\Murali\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar:C:\Users\Murali\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\Murali\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\Murali\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Murali\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar:C:\Users\Murali\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\Murali\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\Murali\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\Murali\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\Murali\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\Murali\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\Murali\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar:C:\Users\Murali\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar:C:\Users\Murali\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar:C:\Users\Murali\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar:C:\Users\Murali\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar:C:\Users\Murali\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar:C:\Users\Murali\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\Murali\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar:C:\Users\Murali\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar:C:\Users\Murali\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar:C:\Users\Murali\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar:C:\Users\Murali\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar:C:\Users\Murali\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar org.testng.remote.RemoteTestNG -serport 54860 -protocol json -d E:\GForceProject_7thDec\Automation_ComputerDB_7thDec\test-output E:\GForceProject_7thDec\Automation_ComputerDB_7thDec\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:35:21.379
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:35:21.381
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:35:56.578
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-07 12:35:56.580
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

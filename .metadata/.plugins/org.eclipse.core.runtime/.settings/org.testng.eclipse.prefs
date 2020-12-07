@@ -1,0 +1,4 @@
+Automation_ComputerDB_12thDec.outdir=test-output
+Automation_ComputerDB_12thDec.watchResultDirectory=testng.xml
+Automation_ComputerDB_12thDec.watchResults=true
+eclipse.preferences.version=1

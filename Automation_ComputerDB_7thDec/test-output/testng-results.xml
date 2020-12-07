@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35363" started-at="2020-12-07T12:34:36 IST" finished-at="2020-12-07T12:35:11 IST">
+    <groups>
+    </groups>
+    <test name="Create" duration-ms="13305" started-at="2020-12-07T12:34:36 IST" finished-at="2020-12-07T12:34:49 IST">
+      <class name="com.projects.testcases.CreateComputer">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.projects.testcases.CreateComputer@68bbe345]" name="beforetest" is-config="true" duration-ms="8276" started-at="2020-12-07T12:34:36 IST" finished-at="2020-12-07T12:34:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="init_report()[pri:0, instance:com.projects.testcases.CreateComputer@68bbe345]" name="init_report" is-config="true" duration-ms="101" started-at="2020-12-07T12:34:44 IST" finished-at="2020-12-07T12:34:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_report -->
+        <test-method status="PASS" signature="AddComputer()[pri:1, instance:com.projects.testcases.CreateComputer@68bbe345]" name="AddComputer" duration-ms="2442" started-at="2020-12-07T12:34:44 IST" finished-at="2020-12-07T12:34:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddComputer -->
+        <test-method status="PASS" signature="Generate_report()[pri:0, instance:com.projects.testcases.CreateComputer@68bbe345]" name="Generate_report" is-config="true" duration-ms="249" started-at="2020-12-07T12:34:46 IST" finished-at="2020-12-07T12:34:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Generate_report -->
+        <test-method status="PASS" signature="init_report()[pri:0, instance:com.projects.testcases.CreateComputer@68bbe345]" name="init_report" is-config="true" duration-ms="0" started-at="2020-12-07T12:34:47 IST" finished-at="2020-12-07T12:34:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_report -->
+        <test-method status="PASS" signature="Inputdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.projects.testcases.CreateComputer@68bbe345]" name="Inputdata" duration-ms="580" started-at="2020-12-07T12:34:47 IST" data-provider="getData" finished-at="2020-12-07T12:34:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2020-04-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2020-12-10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[IBM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Inputdata -->
+        <test-method status="PASS" signature="Generate_report()[pri:0, instance:com.projects.testcases.CreateComputer@68bbe345]" name="Generate_report" is-config="true" duration-ms="4" started-at="2020-12-07T12:34:47 IST" finished-at="2020-12-07T12:34:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Generate_report -->
+        <test-method status="PASS" signature="clickandverify(java.lang.String)[pri:3, instance:com.projects.testcases.CreateComputer@68bbe345]" name="clickandverify" duration-ms="906" started-at="2020-12-07T12:34:47 IST" data-provider="getData" finished-at="2020-12-07T12:34:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickandverify -->
+        <test-method status="PASS" signature="init_report()[pri:0, instance:com.projects.testcases.CreateComputer@68bbe345]" name="init_report" is-config="true" duration-ms="0" started-at="2020-12-07T12:34:47 IST" finished-at="2020-12-07T12:34:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_report -->
+        <test-method status="PASS" signature="Generate_report()[pri:0, instance:com.projects.testcases.CreateComputer@68bbe345]" name="Generate_report" is-config="true" duration-ms="9" started-at="2020-12-07T12:34:48 IST" finished-at="2020-12-07T12:34:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Generate_report -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.projects.testcases.CreateComputer@68bbe345]" name="aftertest" is-config="true" duration-ms="698" started-at="2020-12-07T12:34:48 IST" finished-at="2020-12-07T12:34:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.projects.testcases.CreateComputer -->
+    </test> <!-- Create -->
+    <test name="Edit" duration-ms="10993" started-at="2020-12-07T12:34:49 IST" finished-at="2020-12-07T12:35:00 IST">
+      <class name="com.projects.testcases.EditandsaveComputer">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.projects.testcases.EditandsaveComputer@5f282abb]" name="beforetest" is-config="true" duration-ms="7394" started-at="2020-12-07T12:34:49 IST" finished-at="2020-12-07T12:34:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="init_report()[pri:0, instance:com.projects.testcases.EditandsaveComputer@5f282abb]" name="init_report" is-config="true" duration-ms="0" started-at="2020-12-07T12:34:56 IST" finished-at="2020-12-07T12:34:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_report -->
+        <test-method status="PASS" signature="EditComputerDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.projects.testcases.EditandsaveComputer@5f282abb]" name="EditComputerDetails" duration-ms="1195" started-at="2020-12-07T12:34:56 IST" data-provider="getData" finished-at="2020-12-07T12:34:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2020-04-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2020-12-10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[IBM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditComputerDetails -->
+        <test-method status="PASS" signature="Generate_report()[pri:0, instance:com.projects.testcases.EditandsaveComputer@5f282abb]" name="Generate_report" is-config="true" duration-ms="16" started-at="2020-12-07T12:34:57 IST" finished-at="2020-12-07T12:34:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Generate_report -->
+        <test-method status="PASS" signature="init_report()[pri:0, instance:com.projects.testcases.EditandsaveComputer@5f282abb]" name="init_report" is-config="true" duration-ms="0" started-at="2020-12-07T12:34:57 IST" finished-at="2020-12-07T12:34:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_report -->
+        <test-method status="PASS" signature="EditdataAndSave(java.lang.String, java.lang.String)[pri:2, instance:com.projects.testcases.EditandsaveComputer@5f282abb]" name="EditdataAndSave" duration-ms="1439" started-at="2020-12-07T12:34:57 IST" data-provider="getData" finished-at="2020-12-07T12:34:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ASUS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditdataAndSave -->
+        <test-method status="PASS" signature="Generate_report()[pri:0, instance:com.projects.testcases.EditandsaveComputer@5f282abb]" name="Generate_report" is-config="true" duration-ms="6" started-at="2020-12-07T12:34:59 IST" finished-at="2020-12-07T12:34:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Generate_report -->
+        <test-method status="PASS" signature="verify()[pri:3, instance:com.projects.testcases.EditandsaveComputer@5f282abb]" name="verify" duration-ms="36" started-at="2020-12-07T12:34:59 IST" finished-at="2020-12-07T12:34:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="init_report()[pri:0, instance:com.projects.testcases.EditandsaveComputer@5f282abb]" name="init_report" is-config="true" duration-ms="0" started-at="2020-12-07T12:34:59 IST" finished-at="2020-12-07T12:34:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_report -->
+        <test-method status="PASS" signature="Generate_report()[pri:0, instance:com.projects.testcases.EditandsaveComputer@5f282abb]" name="Generate_report" is-config="true" duration-ms="9" started-at="2020-12-07T12:34:59 IST" finished-at="2020-12-07T12:34:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Generate_report -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.projects.testcases.EditandsaveComputer@5f282abb]" name="aftertest" is-config="true" duration-ms="891" started-at="2020-12-07T12:34:59 IST" finished-at="2020-12-07T12:35:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.projects.testcases.EditandsaveComputer -->
+    </test> <!-- Edit -->
+    <test name="Delete" duration-ms="11037" started-at="2020-12-07T12:35:00 IST" finished-at="2020-12-07T12:35:11 IST">
+      <class name="com.projects.testcases.SearchAndDelete">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.projects.testcases.SearchAndDelete@2833cc44]" name="beforetest" is-config="true" duration-ms="6953" started-at="2020-12-07T12:35:00 IST" finished-at="2020-12-07T12:35:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="searchandopen(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.projects.testcases.SearchAndDelete@2833cc44]" name="searchandopen" duration-ms="1785" started-at="2020-12-07T12:35:07 IST" data-provider="getData" finished-at="2020-12-07T12:35:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2020-04-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2020-12-10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[IBM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchandopen -->
+        <test-method status="PASS" signature="init_report()[pri:0, instance:com.projects.testcases.SearchAndDelete@2833cc44]" name="init_report" is-config="true" duration-ms="0" started-at="2020-12-07T12:35:07 IST" finished-at="2020-12-07T12:35:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_report -->
+        <test-method status="PASS" signature="Generate_report()[pri:0, instance:com.projects.testcases.SearchAndDelete@2833cc44]" name="Generate_report" is-config="true" duration-ms="14" started-at="2020-12-07T12:35:09 IST" finished-at="2020-12-07T12:35:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Generate_report -->
+        <test-method status="PASS" signature="init_report()[pri:0, instance:com.projects.testcases.SearchAndDelete@2833cc44]" name="init_report" is-config="true" duration-ms="1" started-at="2020-12-07T12:35:09 IST" finished-at="2020-12-07T12:35:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_report -->
+        <test-method status="PASS" signature="deleteandverifymsg()[pri:2, instance:com.projects.testcases.SearchAndDelete@2833cc44]" name="deleteandverifymsg" duration-ms="1494" started-at="2020-12-07T12:35:09 IST" depends-on-methods="com.projects.testcases.SearchAndDelete.searchandopen" finished-at="2020-12-07T12:35:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteandverifymsg -->
+        <test-method status="PASS" signature="Generate_report()[pri:0, instance:com.projects.testcases.SearchAndDelete@2833cc44]" name="Generate_report" is-config="true" duration-ms="8" started-at="2020-12-07T12:35:10 IST" finished-at="2020-12-07T12:35:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Generate_report -->
+        <test-method status="PASS" signature="verify()[pri:3, instance:com.projects.testcases.SearchAndDelete@2833cc44]" name="verify" duration-ms="31" started-at="2020-12-07T12:35:10 IST" depends-on-methods="com.projects.testcases.SearchAndDelete.deleteandverifymsg, com.projects.testcases.SearchAndDelete.searchandopen" finished-at="2020-12-07T12:35:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="init_report()[pri:0, instance:com.projects.testcases.SearchAndDelete@2833cc44]" name="init_report" is-config="true" duration-ms="0" started-at="2020-12-07T12:35:10 IST" finished-at="2020-12-07T12:35:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_report -->
+        <test-method status="PASS" signature="Generate_report()[pri:0, instance:com.projects.testcases.SearchAndDelete@2833cc44]" name="Generate_report" is-config="true" duration-ms="4" started-at="2020-12-07T12:35:10 IST" finished-at="2020-12-07T12:35:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Generate_report -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.projects.testcases.SearchAndDelete@2833cc44]" name="aftertest" is-config="true" duration-ms="743" started-at="2020-12-07T12:35:10 IST" finished-at="2020-12-07T12:35:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.projects.testcases.SearchAndDelete -->
+    </test> <!-- Delete -->
+  </suite> <!-- Suite -->
+</testng-results>

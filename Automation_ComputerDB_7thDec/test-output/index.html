@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>E:\GForceProject_7thDec\Automation_ComputerDB_7thDec\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.projects.testcases.CreateComputer" hash-for-method="AddComputer">AddComputer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.projects.testcases.EditandsaveComputer" hash-for-method="EditComputerDetails(name1, 2020-04-10, 2020-12-10, IBM)">EditComputerDetails(name1, 2020-04-10, 2020-12-10, IBM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.projects.testcases.EditandsaveComputer" hash-for-method="EditdataAndSave(name2, ASUS)">EditdataAndSave(name2, ASUS)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.projects.testcases.CreateComputer" hash-for-method="Inputdata(name1, 2020-04-10, 2020-12-10, IBM)">Inputdata(name1, 2020-04-10, 2020-12-10, IBM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.projects.testcases.CreateComputer" hash-for-method="clickandverify(name1)">clickandverify(name1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.projects.testcases.SearchAndDelete" hash-for-method="deleteandverifymsg">deleteandverifymsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.projects.testcases.SearchAndDelete" hash-for-method="searchandopen(name1, 2020-04-10, 2020-12-10, IBM)">searchandopen(name1, 2020-04-10, 2020-12-10, IBM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.projects.testcases.EditandsaveComputer" hash-for-method="verify">verify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.projects.testcases.SearchAndDelete" hash-for-method="verify">verify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.projects.testcases.CreateComputer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddComputer">
+                  </a> <!-- AddComputer -->
+                  <span class="method-name">AddComputer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Inputdata(name1, 2020-04-10, 2020-12-10, IBM)">
+                  </a> <!-- Inputdata(name1, 2020-04-10, 2020-12-10, IBM) -->
+                  <span class="method-name">Inputdata</span>
+                  <span class="parameters">(name1, 2020-04-10, 2020-12-10, IBM)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickandverify(name1)">
+                  </a> <!-- clickandverify(name1) -->
+                  <span class="method-name">clickandverify</span>
+                  <span class="parameters">(name1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.projects.testcases.SearchAndDelete</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteandverifymsg">
+                  </a> <!-- deleteandverifymsg -->
+                  <span class="method-name">deleteandverifymsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchandopen(name1, 2020-04-10, 2020-12-10, IBM)">
+                  </a> <!-- searchandopen(name1, 2020-04-10, 2020-12-10, IBM) -->
+                  <span class="method-name">searchandopen</span>
+                  <span class="parameters">(name1, 2020-04-10, 2020-12-10, IBM)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify">
+                  </a> <!-- verify -->
+                  <span class="method-name">verify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.projects.testcases.EditandsaveComputer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditComputerDetails(name1, 2020-04-10, 2020-12-10, IBM)">
+                  </a> <!-- EditComputerDetails(name1, 2020-04-10, 2020-12-10, IBM) -->
+                  <span class="method-name">EditComputerDetails</span>
+                  <span class="parameters">(name1, 2020-04-10, 2020-12-10, IBM)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditdataAndSave(name2, ASUS)">
+                  </a> <!-- EditdataAndSave(name2, ASUS) -->
+                  <span class="method-name">EditdataAndSave</span>
+                  <span class="parameters">(name2, ASUS)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify">
+                  </a> <!-- verify -->
+                  <span class="method-name">verify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\GForceProject_7thDec\Automation_ComputerDB_7thDec\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Create&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.projects.testcases.CreateComputer&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Edit&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.projects.testcases.EditandsaveComputer&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Edit --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Delete&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.projects.testcases.SearchAndDelete&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Delete --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Create (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Edit (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Delete (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'AddComputer')
+data.setCell(0, 2, 'com.projects.testcases.CreateComputer')
+data.setCell(0, 3, 2442);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchandopen')
+data.setCell(1, 2, 'com.projects.testcases.SearchAndDelete')
+data.setCell(1, 3, 1785);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deleteandverifymsg')
+data.setCell(2, 2, 'com.projects.testcases.SearchAndDelete')
+data.setCell(2, 3, 1494);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'EditdataAndSave')
+data.setCell(3, 2, 'com.projects.testcases.EditandsaveComputer')
+data.setCell(3, 3, 1439);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'EditComputerDetails')
+data.setCell(4, 2, 'com.projects.testcases.EditandsaveComputer')
+data.setCell(4, 3, 1195);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickandverify')
+data.setCell(5, 2, 'com.projects.testcases.CreateComputer')
+data.setCell(5, 3, 906);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Inputdata')
+data.setCell(6, 2, 'com.projects.testcases.CreateComputer')
+data.setCell(6, 3, 580);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verify')
+data.setCell(7, 2, 'com.projects.testcases.EditandsaveComputer')
+data.setCell(7, 3, 36);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verify')
+data.setCell(8, 2, 'com.projects.testcases.SearchAndDelete')
+data.setCell(8, 3, 31);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.projects.testcases.CreateComputer</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">init_report</span>
+                <span class="method-start">8293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddComputer</span>
+                <span class="method-start">8395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Generate_report</span>
+                <span class="method-start">10840 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init_report</span>
+                <span class="method-start">11095 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Inputdata(name1, 2020-04-10, 2020-12-10, IBM)</span>
+                <span class="method-start">11095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Generate_report</span>
+                <span class="method-start">11677 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init_report</span>
+                <span class="method-start">11683 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickandverify(name1)</span>
+                <span class="method-start">11683 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Generate_report</span>
+                <span class="method-start">12591 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertest</span>
+                <span class="method-start">12600 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.projects.testcases.EditandsaveComputer</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">13317 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">init_report</span>
+                <span class="method-start">20712 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EditComputerDetails(name1, 2020-04-10, 2020-12-10, IBM)</span>
+                <span class="method-start">20712 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Generate_report</span>
+                <span class="method-start">21909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init_report</span>
+                <span class="method-start">21925 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EditdataAndSave(name2, ASUS)</span>
+                <span class="method-start">21926 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Generate_report</span>
+                <span class="method-start">23366 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init_report</span>
+                <span class="method-start">23372 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify</span>
+                <span class="method-start">23372 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Generate_report</span>
+                <span class="method-start">23409 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertest</span>
+                <span class="method-start">23418 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.projects.testcases.SearchAndDelete</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">24320 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">init_report</span>
+                <span class="method-start">31274 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchandopen(name1, 2020-04-10, 2020-12-10, IBM)</span>
+                <span class="method-start">31274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Generate_report</span>
+                <span class="method-start">33059 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init_report</span>
+                <span class="method-start">33073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteandverifymsg</span>
+                <span class="method-start">33074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Generate_report</span>
+                <span class="method-start">34568 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init_report</span>
+                <span class="method-start">34577 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify</span>
+                <span class="method-start">34577 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Generate_report</span>
+                <span class="method-start">34609 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertest</span>
+                <span class="method-start">34613 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
